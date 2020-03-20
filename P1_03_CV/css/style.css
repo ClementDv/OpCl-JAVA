@@ -1,0 +1,145 @@
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Calibri, serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#header {
+    padding-top: 40px;
+    background-color: #7451EB;
+}
+
+#header .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+#name {
+    padding-top: 30px;
+    margin-left: 40px;
+    font-size: 3.5em;
+}
+
+#under_title {
+    padding: 0;
+    margin: 0;
+    padding-left: 44px;
+}
+
+#bio {
+    margin-top: 40px;
+    margin-left: 20px;
+    color: white;
+    font-weight: 200;
+    font-size: 1.5em;
+}
+
+section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#section1 .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#symbol {
+    font-size: 9em;
+    font-weight: bold;
+    color: #003668;
+    padding-left: 50px;
+    padding-right: 120px;
+}
+
+h2 {
+    color: #003668;
+    display: inline;
+    font-size: 2.2em;
+}
+
+.text {
+    font-size: 1.1em;
+    color: #003668;
+}
+
+#footer {
+    padding-left: 20px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    background-color: #003668;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+
+#contact {
+    display: inline;
+    color: white;
+    font-weight: 200;
+    font-size: 2em;
+}
+
+#foot_title {
+    font-size: 3.5em;
+}
+
+.overline {
+    background-color: #00EDA2;
+    color: #003668;
+    padding: 3px;
+}
+
+@media screen and (max-width: 700px) {
+    .el:nth-child(1) {
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    #name {
+        text-align: center;
+        margin: auto;
+    }
+
+    #under_title{
+        padding-left: 0;
+    }
+    #bio {
+        text-align: center;
+        margin: auto;
+        padding-top: 20px;
+    }
+
+    #section1 .container {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .el:nth-child(2) {
+        display: none;
+    }
+
+    .element:nth-child(1) {
+        display: none;
+    }
+}
